@@ -1,0 +1,24 @@
+■■ Run the Project Locally
+node server.js
+Then open your browser and go to:
+http://localhost:3000
+■ Upload to GitHub
+# Step 1 — Initialize git
+git init
+git add .
+git commit -m "Moner Bondhu AI Chatbot"
+# Step 2 — Create repo at https://github.com
+# Then connect and push:
+git remote add origin YOUR_GITHUB_REPO_LINK
+git branch -M main
+git push -u origin main
+■■ Add .gitignore before pushing! See 08_gitignore.pdf
+■ Deploy Online for Free
+Recommended platform: https://render.com
+Other options: Railway (railway.app), Vercel (vercel.com)
+On Render:
+1. Connect your GitHub repository
+2. Set Build Command: npm install
+3. Set Start Command: node server.js
+4. Add environment variable: GEMINI_API_KEY = your key
+5. Click Deploy — your chatbot is live!
