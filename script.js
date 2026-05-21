@@ -35,7 +35,7 @@ async function sendMessage() {
 }
 // Send on Enter key
 input.addEventListener("keypress", (e) => {
- if (e.key === "AIzaSyB5lgANz5AD-VcxIQ6x8bHyZ6a0gTnx1SI") sendMessage();
+ if (e.key === "Enter") sendMessage();
 });
 // Save & load chat history
 function saveChat() {
